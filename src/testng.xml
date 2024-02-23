@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Basics Learning" guice-stage="DEVELOPMENT">
+  <test name="Parameterized Test" verbose="2">
+	  
+	  <parameter name = "Username" value ="Admin"/>
+	  <parameter name = "Password" value ="admin123"/>
+	  
+	  
+    <classes>
+		
+      <class name="com.testNGpractice.PassParametersTest"/>
+
+    </classes>
+    
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
