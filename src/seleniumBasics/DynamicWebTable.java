@@ -38,7 +38,7 @@ public class DynamicWebTable {
 				//WebElement checkBox = driver.findElement(By.xpath("//*[@id='leftcontainer']/table/tbody/tr[5]/td[1]/a"));
 				//ScrollToTheElement(driver, checkBox);
 				driver.findElement(By.xpath("//*[@id='leftcontainer']/table/tbody/tr[" +i+ "]/td[1]/a")).click();
-			}	
+			}
 		}
 	}
 	
